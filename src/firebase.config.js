@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDBXxkKXd_MPnNC3CBRC6e0j-dZEv8FzEQ",
+  apiKey: REACT_APP_API_FIREBASE,
   authDomain: "house-marketplace-app-720d3.firebaseapp.com",
   projectId: "house-marketplace-app-720d3",
   storageBucket: "house-marketplace-app-720d3.appspot.com",
   messagingSenderId: "828800523070",
-  appId: "1:828800523070:web:28459a81f592d5d32e6a6f"
+  appId: "1:828800523070:web:28459a81f592d5d32e6a6f",
 };
 
 // Initialize Firebase
